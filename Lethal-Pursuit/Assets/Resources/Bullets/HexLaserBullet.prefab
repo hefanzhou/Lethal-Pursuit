@@ -87,6 +87,7 @@ Transform:
   - {fileID: 400006}
   - {fileID: 400008}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
@@ -98,6 +99,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
+  m_RootOrder: 0
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 1
@@ -109,6 +111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: .25}
   m_Children: []
   m_Father: {fileID: 400000}
+  m_RootOrder: 0
 --- !u!4 &400008
 Transform:
   m_ObjectHideFlags: 1
@@ -121,6 +124,7 @@ Transform:
   m_Children:
   - {fileID: 400002}
   m_Father: {fileID: 400000}
+  m_RootOrder: 1
 --- !u!23 &2300002
 Renderer:
   m_ObjectHideFlags: 1
@@ -138,9 +142,8 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!33 &3300002
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -181,9 +184,8 @@ TrailRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_Time: 1
   m_StartWidth: 10
   m_EndWidth: 2
@@ -490,6 +492,31 @@ MonoBehaviour:
     exceedMaxStopsPaint: 0
     initialized: 0
   manipulators: []
+  playgroundCache:
+    size: []
+    life: []
+    birth: []
+    death: []
+    emission: 
+    rebirth: 
+    lifetimeOffset: []
+    velocity: []
+    initialVelocity: []
+    initialLocalVelocity: []
+    targetPosition: []
+    previousTargetPosition: []
+    previousParticlePosition: []
+    initialRotation: []
+    rotationSpeed: []
+    parent: []
+    color: []
+    changedByProperty: 
+    changedByPropertyColor: 
+    changedByPropertyColorLerp: 
+    changedByPropertySize: 
+    changedByPropertyTarget: 
+    propertyTarget: 
+    propertyId: 
   shurikenParticleSystem: {fileID: 19800002}
   particleSystemId: 0
   particleSystemGameObject: {fileID: 100006}
@@ -1769,6 +1796,31 @@ MonoBehaviour:
     exceedMaxStopsPaint: 0
     initialized: 0
   manipulators: []
+  playgroundCache:
+    size: []
+    life: []
+    birth: []
+    death: []
+    emission: 
+    rebirth: 
+    lifetimeOffset: []
+    velocity: []
+    initialVelocity: []
+    initialLocalVelocity: []
+    targetPosition: []
+    previousTargetPosition: []
+    previousParticlePosition: []
+    initialRotation: []
+    rotationSpeed: []
+    parent: []
+    color: []
+    changedByProperty: 
+    changedByPropertyColor: 
+    changedByPropertyColorLerp: 
+    changedByPropertySize: 
+    changedByPropertyTarget: 
+    propertyTarget: 
+    propertyId: 
   shurikenParticleSystem: {fileID: 19800000}
   particleSystemId: 1
   particleSystemGameObject: {fileID: 100008}
@@ -3932,9 +3984,8 @@ ParticleSystemRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
@@ -3965,9 +4016,8 @@ ParticleSystemRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_RenderMode: 3
   m_MaxParticleSize: 1
   m_CameraVelocityScale: -9
